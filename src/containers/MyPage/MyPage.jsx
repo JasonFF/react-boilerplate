@@ -3,8 +3,8 @@ import React, { Component } from 'react'
 import {connect} from 'react-redux'
 import action from '../../actions/action'
 
-@connect((state) => ({count: state}),{action})
-export default class MyPage extends Component {
+
+class MyPage extends Component {
   constructor(props) {
     super(props)
     this.onIncrement = this.onIncrement.bind(this)
@@ -64,3 +64,5 @@ export default class MyPage extends Component {
     )
   }
 }
+
+export default connect((state) => ({count: state}),{action})(MyPage)

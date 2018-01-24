@@ -1,7 +1,7 @@
 {
-  "name": "react-saga-boilerplate",
+  "name": "react-boilerplate",
   "version": "1.0.0",
-  "description": "react/redux/react-saga/react-router/redux-devtools",
+  "description": "react/redux/react-router/redux-devtools",
   "author": "JasonFF <dfQ_Qjb@qq.com>",
   "private": true,
   "scripts": {
@@ -18,8 +18,7 @@
     "react-redux": "^5.0.6",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
-    "redux": "^3.7.2",
-    "redux-saga": "^0.16.0"
+    "redux": "^3.7.2"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
